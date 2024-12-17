@@ -14,7 +14,7 @@ for i in range(0, 10000):
     else:
         p_p.append(str(i))
 
-#Entering the password - 17-20 minutes to fully finish
+#Entering the password
 for i in p_p:
     for x in i:
         keyboard.write(x)
